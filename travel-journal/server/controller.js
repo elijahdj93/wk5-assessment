@@ -227,6 +227,13 @@ module.exports = {
             ('Yemen'),
             ('Zambia'),
             ('Zimbabwe');
+
+            INSERT INTO cities (name, rating, country_id)
+            VALUES('Hong Kong', 5, 37),
+            ('Rome', 5, 84),
+            ('Los Angeles', 2, 187),
+            ('London', 4, 186),
+            ('Kabul', 1, 1);
         `
       )
       .then(() => {
